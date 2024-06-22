@@ -8,7 +8,7 @@
 }
 
 .credits h4 {
-  color: #d6d6d6be;
+  color: #444444d8;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
 }
@@ -17,7 +17,7 @@
 /* section : biodata */
 body {
   background-image: url(image/rain-mobile.jpg);
-  background-size: cover;
+  background-size: auto;
 }
 
 .biodata {
@@ -79,7 +79,7 @@ hr {
   margin-bottom: 10px;
   cursor: pointer;
   padding: 10px;
-  width: 70%;
+  width: 85.7%;
   height: 33px;
   margin-left: auto;
   margin-right: auto;
@@ -113,7 +113,7 @@ hr {
 @media (min-width: 992px) {
   body {
     background-image: url(image/rain.JPG);
-    background-size: cover;
+    background-size: auto;
   }
 
   .biodata {
