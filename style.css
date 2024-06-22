@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.credits {
+  text-align: center;
+}
+
+.credits h4 {
+  color: #d6d6d6be;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+/* MOBILE VERSION */
+/* section : biodata */
+body {
+  background-image: url(image/rain-mobile.jpg);
+  background-size: cover;
+}
+
+.biodata {
+  padding-top: 1.5cm;
+  padding-bottom: 1cm;
+  text-align: center;
+}
+
+.biodata .name .title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.biodata .name span {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #303030;
+}
+
+.biodata .pinned-social-media ul li {
+  display: inline-block;
+  position: relative;
+  margin-top: 5px;
+}
+
+.biodata .pinned-social-media li .btn-pin-social {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.biodata .pinned-social-media li .btn-pin-social:hover {
+  transform: translateY(-3px);
+  transition: 0.5s;
+}
+
+hr {
+  width: 30%;
+  border: 0.1mm rgb(83, 83, 83, 0.5) solid;
+}
+
+/* section : link to social */
+.link-to-social {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.link-to-social li .btn-social {
+  background: rgba(22, 22, 22, 0.7);
+  color: #f5f5f5;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+  width: 70%;
+  height: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.7s;
+}
+
+.link-to-social li .btn-social:hover {
+  transform: translateY(-3px);
+  transition: 0.7s;
+}
+
+.link-to-social li .btn-social .icon {
+  font-size: 30px;
+  padding-left: 10px;
+  margin-right: auto;
+}
+
+.link-to-social li .btn-social .name {
+  top: -32px;
+  position: relative;
+  text-align: center;
+}
+
+.link-to-social li .btn-social .social-media-name {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+
+/* DESKTOP VERSION */
+/* section : biodata */
+@media (min-width: 992px) {
+  body {
+    background-image: url(image/rain.JPG);
+    background-size: cover;
+  }
+
+  .biodata {
+    padding-top: 1.5cm;
+    padding-bottom: 1cm;
+    text-align: center;
+  }
+
+  .biodata .name .title {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+  .biodata .name span {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: #303030;
+  }
+
+  .biodata .pinned-social-media ul li {
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .biodata .pinned-social-media li .btn-pin-social {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .biodata .pinned-social-media li .btn-pin-social:hover {
+    transform: translateY(-3px);
+    transition: 0.5s;
+  }
+
+  hr {
+    width: 30%;
+    border: 0.1mm rgb(83, 83, 83, 0.5) solid;
+  }
+
+  /* section : link to social */
+  .link-to-social {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .link-to-social li .btn-social {
+    background: rgba(22, 22, 22, 0.7);
+    color: #f5f5f5;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    width: 40%;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.7s;
+  }
+
+  .link-to-social li .btn-social:hover {
+    transform: translateY(-3px);
+    transition: 0.7s;
+  }
+
+  .link-to-social li .btn-social .icon {
+    font-size: 30px;
+    padding-left: 10px;
+    margin-right: auto;
+  }
+
+  .link-to-social li .btn-social .name {
+    top: -32px;
+    position: relative;
+    text-align: center;
+  }
+
+  .link-to-social li .btn-social .social-media-name {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+  }
+}
